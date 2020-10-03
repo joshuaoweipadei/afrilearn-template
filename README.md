@@ -1,6 +1,6 @@
-###### Afrilearn Template
+# Afrilearn Template
 
-###### Project Setup
+#### Project Setup
 Start server
 ```
 npm run server

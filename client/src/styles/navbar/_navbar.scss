@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+.header-top{
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://edufar.com/wp-content/uploads/2018/10/banner-home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+.navbar-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    // background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    margin-bottom: 20px;
+
+    &.scroll{
+        background-color: #2bb58e;
+    }
+    
+    .navbar-brand{
+        & img{
+            height: 40px;
+        }
+    }
+
+    .navbar-toggler{
+        z-index: 100;
+        background-color: #ffffff;
+
+        .navbar-toggler-icon{
+            color: #2bb58e;
+
+            & i{
+                font-size: 32px;
+            }
+        }
+    }
+
+    .nav-item{
+        margin-left: 20px;
+
+        .nav-link{
+            color: #fff;
+            font-family: 'Delius', cursive;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .login, .signup{
+            padding: 10px 18px;
+            border: 1px solid #e1e1e1;
+            border-radius: 4px;
+        }
+    }
+
+    .dropdown-menu{
+        background-color: #ff0000;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .navbar-main{
+        background-color: #2bb58e;
+        .nav-item{
+            margin-bottom: 12px;
+            background-color: #2bb58e;
+        }
+    }
+}
+
+.banner{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-content {
+    .banner-text{
+        color: #fff;
+        
+        & p{
+            margin-bottom: 0px;
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 991px){
+            & p{
+                display: none;
+            }
+        }
+
+        .start-learning{
+            padding: 12px 26px;
+            border: 1px solid #2bb58e;
+            border-radius: 4px;
+            font-size: 18px;
+            background-color: #2bb58e;
+            color: #ffffff;
+            margin-top: 20px;
+
+            & i{
+                margin-right: 5px;
+            }
+        }
+    }
+
+    
+    
+}

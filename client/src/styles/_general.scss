@@ -1,0 +1,85 @@
+/**  =====================
+      Custom css start
+==========================  **/
+*{
+    margin: 0;
+    padding: 0;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+body {
+    font-weight: 400;
+    position: relative;
+    // background-color: #2bb58e;
+    // background-color: #2bb58e;
+    // background-color: #ebeef2;
+    // background-color: #ffffff;
+}
+
+a {
+    &:hover {
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    // color: $theme-heading-color;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.section{
+    padding: 80px 0px;
+
+    .content-title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+.isError{
+    color: #cf0a0a;
+}
+
+.icon-lg{
+    font-size: 50px;
+}
+
+.icon-md{
+    font-size: 10px;
+}

@@ -1,0 +1,12 @@
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+// @import "animate.css/animate.min.css";
+@import "~bootstrap/dist/css/bootstrap";
+
+@import "./_general.scss";
+@import "./_authentication.scss";
+
+@import "./navbar/_navbar.scss";
+@import "./footer/_footer.scss";
+@import "./homepage/_our-services.scss";
+
+@import "./profile/_dashboard.scss";

@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb://127.0.0.1/afrilearn",
+    "secret": "MY SECRET IS CODING"
+}

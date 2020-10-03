@@ -1,0 +1,40 @@
+.profile{
+    padding-top: 40px;
+
+    .title{
+        font-family: 'Piazzolla', serif;
+        margin-bottom: 30px;
+
+        & span{
+            color: #2bb58e;
+            text-transform: capitalize;
+            margin-left: 4px;
+        }
+
+        & p{
+            margin-bottom: 0px;
+        }
+    }
+
+    .users-lists{
+        & h5{
+            text-align: center;
+        }
+
+        .user-item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .user-name{
+                & span{
+                    margin-right: 10px;
+                }
+            }
+
+            & i{
+                color: #ff000f;
+            }
+        }
+    }
+}
